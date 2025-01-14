@@ -1,4 +1,4 @@
-# **<u>Nerual Networ From Scratch</u>**
+# **<u>Nerual Network From Scratch</u>**
 ## project Overview
 The project serves as a practical demonstration of my theoretical understanding of the foundations of Neural Networks and their underlying mechanics.
 Every layer, loss or activation function, optimization algorithm, gradient computation, and model in general - was made with no libraries implementation uses.
