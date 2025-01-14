@@ -31,9 +31,6 @@ def softmax_regression_loss(X, Y, W, b):
     dx = np.dot(W, softmax.T - Y) / num_samples
     return loss, dw, db, dx
 
-'''
-1. check if db is calculated correctly
-2. check if dsoftmax should be taken with Y'''
 
 def sgd(X, Y, W, b, loss_function,  alpha = 0.1, num_iterations = 10000):
     losses = []
